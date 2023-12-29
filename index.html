@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        #image-box{
+            display: flex;
+   
+        }
+        
+        
+        img{
+
+            width: 300px;
+            height: 200px;
+            margin: 30px
+        }
+    </style>
+    
+    <label for="range">Border Radius</label>
+    <input type="range" id="range" min="0" max="100" step="1" value="0">
+
+    <label for="opacityRange">Opacity</label>
+    <input type="range" id="opacityRange" min="0" max="1" step="0.01" value="1" >
+
+
+
+    <!-- <label for="shine">Opacity</label>
+    <input type="range" id="shine" step="0.01"> -->
+
+    <div id="image-box">
+        <img class="image" src="./images/photo1.jpg" alt="">
+        <!-- <img class="image" src="./images/photo2.jpg" alt="">
+        <img class="image" src="./images/photo3.jpg" alt=""> -->
+    </div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
